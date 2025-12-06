@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+  .btn_header {
+    color: #ffffff;
+    background-color: #f97415;
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .btn_header:hover {
+    color: #f97415;
+    background-color: #ffffff;
+  }
+}
