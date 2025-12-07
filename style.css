@@ -40,40 +40,112 @@ header .btn_header:hover {
   background-color: #ffffff;
 }
 
-section {
+.container_pets_info {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3rem 0;
 }
-section .container_pets {
+.container_pets_info .container_pets {
   display: flex;
   align-items: center;
 }
-section .container_pets .info_pet {
+.container_pets_info .container_pets .info_pet {
   padding: 0 4rem;
   height: 22rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-section .container_pets .info_pet h1 {
+.container_pets_info .container_pets .info_pet h1 {
   font-size: 6rem;
   font-weight: 700;
   color: #f97415;
 }
-section .container_pets .info_pet p {
+.container_pets_info .container_pets .info_pet p {
   font-size: 2.4rem;
 }
-section .container_pets img {
+.container_pets_info .container_pets img {
   width: 50%;
 }
-section .opcoes_pets {
+.container_pets_info .opcoes_pets {
   display: flex;
   justify-content: space-evenly;
   width: 70%;
   padding: 2rem 0;
 }
-section .opcoes_pets img:hover {
+.container_pets_info .opcoes_pets img:hover {
   cursor: pointer;
+}
+
+.secao_formulario {
+  background-color: #f59f0a;
+  color: #ffffff;
+  padding: 2rem 2rem;
+}
+.secao_formulario .info_formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 75rem;
+}
+.secao_formulario .info_formulario h2 {
+  font-size: 4.8rem;
+}
+.secao_formulario .info_formulario p {
+  text-align: center;
+  font-size: 3.2rem;
+  width: 75%;
+}
+.secao_formulario .info_formulario .dados_form {
+  width: 50rem;
+  height: 53rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.secao_formulario .info_formulario .dados_form .dados_forms {
+  display: flex;
+  flex-direction: column;
+}
+.secao_formulario .info_formulario .dados_form .dados_forms label {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.secao_formulario .info_formulario .dados_form .dados_forms input {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 2rem;
+  outline: none;
+}
+.secao_formulario .info_formulario .dados_form .dados_forms .container_radio {
+  display: flex;
+  justify-content: space-between;
+  width: 57%;
+}
+.secao_formulario .info_formulario .dados_form .dados_forms .container_radio .label_input_radio {
+  display: flex;
+}
+.secao_formulario .info_formulario .dados_form .dados_forms .container_radio .label_input_radio input {
+  margin-right: 0.5rem;
+  width: 2rem;
+}
+.secao_formulario .info_formulario .btn_formulario {
+  background-color: #f97415;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.8rem 3rem;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 3.2rem;
+  align-self: center;
+  margin-top: 2rem;
+}
+.secao_formulario .info_formulario .btn_formulario:hover {
+  color: #f97415;
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

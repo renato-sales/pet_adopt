@@ -19,7 +19,7 @@
     </header>
 
     <main>
-      <section class="container_padrao">
+      <section class="container_pets_info container_padrao">
         <div class="container_pets">
           <div class="info_pet">
             <h1>Scooby</h1>
@@ -39,5 +39,72 @@
         </div>
       </section>
     </main>
+
+    <section class="secao_formulario">
+      <div class="info_formulario container_padrao">
+        <h2>Pronto para transformar uma vida?</h2>
+        <p>
+          Junte-se a centenas de famílias que já encontraram seus melhores
+          amigos através do PetAdopt.
+        </p>
+        <div class="dados_form">
+          <div class="dados_forms">
+            <label for="nome">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Escreva seu nome"
+            />
+          </div>
+
+          <div class="dados_forms">
+            <label for="fone">Telefone:</label>
+            <input
+              type="tel"
+              name="fone"
+              id="fone"
+              placeholder="(xx) xxxxx-xxxx"
+            />
+          </div>
+
+          <div class="dados_forms">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="seuemail@exemplo.com"
+            />
+          </div>
+
+          <div class="dados_forms">
+            <label>Animal escolhido:</label>
+            <div class="container_radio">
+              <div class="label_input_radio">
+                <input type="radio" name="animal" id="animal" />
+                <label for="animal">Cachorro</label>
+              </div>
+              <div class="label_input_radio">
+                <input type="radio" name="animal" id="gato" />
+                <label for="gato">Gato</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="dados_forms">
+            <label for="nome_pet">Nome do Animal:</label>
+            <input
+              type="text"
+              name="nome_pet"
+              id="nome_pet"
+              placeholder="Escreva o nome do animal que você quer adotar"
+            />
+          </div>
+
+          <button class="btn_formulario">Comece Sua Jornada</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
