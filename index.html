@@ -23,19 +23,43 @@
         <div class="container_pets">
           <div class="info_pet">
             <h1>Scooby</h1>
-            <p>
+            <p id="info_pet_selecionado">
               Scooby é um cão leal e protetor. Ama crianças e é muito obediente.
               Precisa de espaço para correr e brincar. Ideal para famílias
               ativas.
             </p>
           </div>
-          <img src="assets/scooby 1.png" alt="Imagem de cachorro" />
+          <img
+            src="assets/scooby1.png"
+            alt="Imagem de cachorro"
+            id="img_info"
+          />
         </div>
         <div class="opcoes_pets">
-          <img src="assets/scooby.png" alt="Imagem de cachorro" />
-          <img src="assets/pantera.png" alt="Imagem de gato" />
-          <img src="assets/thor.png" alt="Imagem de cachorro" />
-          <img src="assets/garfield.png" alt="Imagem de gato" />
+          <img
+            src="assets/scooby.png"
+            alt="Imagem de cachorro"
+            id="scooby"
+            onclick="alteraScooby()"
+          />
+          <img
+            src="assets/pantera.png"
+            alt="Imagem de gato"
+            id="pantera"
+            onclick="alteraPantera()"
+          />
+          <img
+            src="assets/thor.png"
+            alt="Imagem de cachorro"
+            id="thor"
+            onclick="alteraThor()"
+          />
+          <img
+            src="assets/garfield.png"
+            alt="Imagem de gato"
+            id="garfield"
+            onclick="alteraGarfield()"
+          />
         </div>
       </section>
     </main>
@@ -106,5 +130,8 @@
         </div>
       </div>
     </section>
+
+    <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>
