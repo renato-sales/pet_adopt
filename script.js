@@ -11,7 +11,7 @@ const alteraPantera = () => {
 };
 
 const alteraScooby = () => {
-  imagem.src = "assets/scooby1.png";
+  imagem.src = "assets/scooby2.png";
   nome.textContent = "Scooby";
   info.textContent =
     "Scooby é um cão leal e protetor. Ama crianças e é muito obediente.Precisa de espaço para correr e brincar. Ideal para famílias ativas.";

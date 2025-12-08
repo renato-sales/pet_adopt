@@ -14,7 +14,7 @@ body {
 }
 
 .container_padrao {
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -69,20 +69,18 @@ header {
         font-size: 2.4rem;
       }
     }
-
-    img {
-      width: 50%;
-    }
   }
 
   .opcoes_pets {
     display: flex;
     justify-content: space-evenly;
     width: 70%;
-    padding: 2rem 0;
+    padding: 4rem 0;
 
     img:hover {
       cursor: pointer;
+      transform: scale(1.2);
+      transition: 2s;
     }
   }
 }
@@ -168,5 +166,36 @@ header {
       color: #f97415;
       background-color: #ffffff;
     }
+  }
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #9ca3af;
+
+  .footer_superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+
+    p {
+      width: 45%;
+      text-align: center;
+    }
+
+    .logo_facebook {
+      margin-right: 1rem;
+    }
+  }
+
+  .footer_inferior {
+    padding: 2rem 1rem;
+    width: 100%;
+    border-top: solid #4b5563;
+    text-align: center;
   }
 }
